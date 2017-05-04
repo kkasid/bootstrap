@@ -1,0 +1,12 @@
+.customDiv{
+  margin: 10px;
+  min-height: 150;
+  background-color: silver;
+  text-align: center;
+  font-size: large;
+  padding: 10px;
+}
+
+.dropdown{
+  margin-left: 100px;
+}

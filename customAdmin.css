@@ -1,0 +1,123 @@
+body{
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+}
+
+h2 {
+	font-family: Lato;
+	font-size: 45px;
+	font-style: oblique;
+	font-variant: normal;
+	font-weight: bold;
+  color: #000000;
+}
+
+#my-navbar{
+  margin-bottom: 0px;
+  width: 100%
+}
+
+#b1{
+  margin-right: 2px;
+}
+
+.jumbotron{
+  margin-bottom: 0px;
+}
+
+#event{
+  min-height: 580px;
+}
+#event .r1{
+  margin-top: 170px;
+}
+
+#spot{
+  background-color: #999999; /*silver*/
+  min-height: 670px;
+}
+#spot .r2{
+  margin-top: 160px;
+}
+
+#quater{
+  min-height: 460px;
+  /*margin-top: 200px;*/
+  margin-bottom: 0px;
+}
+
+#samvada{
+  background-color: #999999; /*silver*/
+  min-height: 670px;
+  margin-top: 200px;
+}
+
+#coo{
+  background-color: #999999; /*silver*/
+  margin-bottom: 0px;
+}
+
+.bg-2{
+  background-color: black;
+  color: white;
+  min-height: 100px;
+}
+
+.bg-2 .p{
+  margin-top: 40px;
+}
+
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #00004d !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+.carousel-inner img {
+    /* -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
